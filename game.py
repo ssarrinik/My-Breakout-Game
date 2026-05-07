@@ -31,9 +31,9 @@ class BreakOutGame:
 
     def init_sounds(self):
         self.sounds = {
-            "hit_sound": pygame.mixer.Sound("hit_sound.mp3"),
-            "game_over": pygame.mixer.Sound("game_over.mp3"),
-            "paddle_hit": pygame.mixer.Sound("elastic.mp3")
+            "hit_sound": pygame.mixer.Sound("assets/hit_sound.mp3"),
+            "game_over": pygame.mixer.Sound("assets/game_over.mp3"),
+            "paddle_hit": pygame.mixer.Sound("assets/elastic.mp3")
         }
         return self.sounds
 
