@@ -31,9 +31,9 @@ class BreakOutGame:
 
     def init_sounds(self):
         self.sounds = {
-            "hit_sound": pygame.mixer.Sound("universfield-cinematic-impact-hit-352702.mp3"),
-            "game_over": pygame.mixer.Sound("freesound_community-negative_beeps-6008.mp3"),
-            "paddle_hit": pygame.mixer.Sound("aberrantrealities-funny-lighthearted-springy-boing-effect-01-416262.mp3")
+            "hit_sound": pygame.mixer.Sound("hit_sound.mp3"),
+            "game_over": pygame.mixer.Sound("game_over.mp3"),
+            "paddle_hit": pygame.mixer.Sound("elastic.mp3")
         }
         return self.sounds
 
